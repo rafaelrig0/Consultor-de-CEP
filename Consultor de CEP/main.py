@@ -50,4 +50,6 @@ if validar_cep(cep):
         print("Erro:", e)
 
     except ConnectionError as e:
+        return
         print("Erro:", e)
+return
